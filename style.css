@@ -1,0 +1,33 @@
+.smiley {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: #FFD93B;
+  border-radius: 50%;
+ 
+  }
+  .smile{
+    position:absolute;
+    width:200px;
+    height:50px;
+    left:100px;
+    top:250px;
+    background-color: brown;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+  }
+
+  .left,.right{
+    position:absolute;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: black;
+    top:50px;
+    left:100px;
+  }
+  .right{
+    left:250px;
+  }
+ 
